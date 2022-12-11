@@ -1,0 +1,50 @@
+.blank{
+    padding-top: 5%;
+}
+.presentation-titre h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 500%;
+    color: aliceblue;
+    animation: apparition 3s ease;
+}
+
+.presentation{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 300%;
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-bottom: 6%;
+    background-color: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur(5px);
+}
+
+.presentation-titre{
+    background-color: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur(5px);
+}
+
+.presentation img{
+    width: 20%;
+    border: 4px solid aliceblue;
+    border-radius: 50%;
+}
+
+.presentation p{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: lightgray;
+    animation: apparition 3s ease;
+}
+
+@keyframes apparition {
+    from{
+        color: rgba(240, 248, 255, 0);
+    }
+    to{
+        color: aliceblue;
+    }
+}

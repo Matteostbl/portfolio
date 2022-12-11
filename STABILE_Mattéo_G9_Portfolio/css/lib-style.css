@@ -1,0 +1,49 @@
+@import url(container/banner.css);
+@import url(container/apro-navbar.css);
+@import url(container/footer.css);
+@import url(container/lib-gallery.css);
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: "Ubuntu", cursive ;
+    color: aliceblue;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #030007;
+}
+
+.header{
+    height: 120vh;
+}
+
+.banner{
+    background-image: url(../images/Travaux-image-dillustration-AdobeStock_48985188.png);
+    background-size: cover;
+    height: 40%;
+    align-items: center;
+}
+
+.banner p{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .lib-nav {
+        width: 80%;
+        padding-top: 3%;
+        padding-left: 6%;
+    }
+
+    .banner p{
+        padding-top: 20%;
+        font-size: 300%;
+    }
+}
+

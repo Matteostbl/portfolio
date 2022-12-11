@@ -1,0 +1,30 @@
+/* navbar */
+
+
+.lib-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1%;
+    width: 25%;
+    margin-left: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.lib-nav a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header-lib{
+    display:flex;
+    align-items: center;
+}
+
+
+.lib-nav a:hover{
+    color: rgb(218, 122, 93);
+    transition: 1s;
+}

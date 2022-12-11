@@ -1,0 +1,47 @@
+@import url(container/apro-navbar.css);
+@import url(container/apro-presentation.css);
+@import url(container/apro-cartes.css);
+@import url(container/apro-barre.css);
+@import url(container/footer.css);
+@import url(container/banner.css);
+*{
+    margin : 0;
+    padding: 0;
+    font-family: "Ubuntu", cursive ;
+    color: aliceblue;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #030007;
+}
+
+@media only screen and (max-width: 700px) {
+    .presentation{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }   
+    .presentation img{
+        width: 40%;
+    }
+    .presentation-titre h1{
+        font-size: 350%;
+
+    }
+    .presentation p{
+        padding-top: 5%;
+        font-size: 80%;
+        text-align: center;
+    }
+    .flex-carte{
+        flex-direction: column;
+    }
+
+    .lib-nav {
+        width: 80%;
+        padding-top: 3%;
+        padding-left: 6%;
+    }
+
+}

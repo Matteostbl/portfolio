@@ -1,0 +1,29 @@
+/* navbar */
+
+.navbar{
+    text-align: center;
+    width: 90%;
+    padding : 3% 0% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin : 0 30px;
+    font-size: 105%;;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 10%;
+}
+
+.navbar a:hover{
+    color: rgb(218, 122, 93);
+    transition: 1s;
+}

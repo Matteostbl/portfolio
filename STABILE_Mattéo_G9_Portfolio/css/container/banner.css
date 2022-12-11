@@ -1,0 +1,41 @@
+/* Background */
+
+.header{
+    height: 190vh;
+    width: 100%;
+    background: url(../../images/background.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.titre h2{
+    text-transform: none;
+    padding-top: 1%;
+    font-size: 80%;
+    animation: apparition 5s ease;
+}
+
+.titre h1{
+    animation: apparition 5s ease;
+}
+
+.titre{
+    font-size : 300%; 
+    text-align: center;
+    padding-top: 6%;
+    text-transform: uppercase; 
+    color: aliceblue;
+    
+}
+
+@keyframes apparition {
+    from{
+        color: rgba(240, 248, 255, 0);
+    }
+    to{
+        color: aliceblue;
+    }
+}
+

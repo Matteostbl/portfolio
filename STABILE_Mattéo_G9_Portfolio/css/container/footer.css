@@ -1,0 +1,45 @@
+footer{
+    position: absolute;
+    background: rgb(15, 15, 15);
+    height: auto;
+    width: 100%;
+    padding-top: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+footer h3{
+    padding-bottom: 1%;
+    font-size: 250%;
+}
+
+footer p{
+    padding-bottom: 1%;
+}
+
+
+.reseaux a i{
+    font-size: 220%;
+    transition: color .4s ease;
+    padding-bottom: 2%;
+}
+.reseaux a:hover i{
+    color: rgb(123, 0, 255);
+}
+
+.footer-bas{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bas p{
+    font-size: 14px;
+    word-spacing: 2px;
+
+}
+
+.footer-bas span{
+    
+    color: rgb(172, 123, 70);
+}

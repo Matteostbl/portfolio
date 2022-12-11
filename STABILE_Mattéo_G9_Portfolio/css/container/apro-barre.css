@@ -1,0 +1,8 @@
+.image-barre{
+    align-items: center;
+    padding-left: 44%;
+    padding-top: 5%;
+}
+.image-barre img{
+    width: 20%;
+}
